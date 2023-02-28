@@ -13,19 +13,22 @@ var foods = {
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(foods))
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(foods))
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(foods)[1])
+// OR
+console.log(foods.grapes)
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
-// YOUR CODE HERE
+foods.cherries = 20
+console.log(foods)
 
 
 // -------------------
@@ -40,15 +43,21 @@ var foods = {
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 // Write code that logs your email object to the terminal.
-
+var email = {
+  recipient: "user1@email.com",
+  sender: "user2@email.com",
+  subject: "Coffee Chat?",
+  body: "Want to grab coffee sometime this week? I'd love to chat a bit and catch up."
+}
+console.log(email)
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(email))
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(email))
 
 
 // -------------------
